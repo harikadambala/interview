@@ -1,0 +1,28 @@
+==================================================================================
+16. Q: How do you integrate on-prem workloads with cloud services?
+👉 Answer:
+“Via ExpressRoute/Private Link for secure connectivity, Arc for governance, ASR for DR, hybrid identity with AAD Connect, and hybrid DNS/VPN for seamless operations.”
+==================================================================================
+                                                                     Security & Compliance
+=================================================================================
+17. Q: How do you implement Zero Trust in Azure Compute?
+👉 Answer:
+“Identity-first approach with AAD, MFA, Conditional Access. No public IPs — access via Bastion/JIT. NSGs + Firewall for segmentation, Defender for threat protection, encryption at rest/in transit, continuous monitoring.”
+==================================================================================
+18. Q: Best practices for VM access?
+👉 Answer:
+“No direct RDP/SSH. I use Azure Bastion, enforce Just-in-Time access, manage privileged accounts with PIM, and monitor all sessions in Log Analytics.”
+==================================================================================
+19. Q: How do you ensure compliance in banking/healthcare workloads?
+👉 Answer:
+“I use ASE/Dedicated Hosts, encryption with CMKs in Key Vault, Defender for compliance posture, Policies for regulatory standards (ISO, HIPAA), and Azure Monitor for audit trails.”
+==================================================================================
+20. Q: How do you manage secrets and certificates?
+👉 Answer:
+“Centralize in Azure Key Vault, integrate with Managed Identities, automate rotation, and enforce RBAC-controlled access. No secrets stored in code.”
+==================================================================================
+                                                        Cost Optimization & Governance
+==================================================================================
+21. Q: How do you optimize costs for compute-heavy workloads?
+👉 Answer:
+“Right-size with Advisor, use Reserved Instances/Savings Plans, Spot VMs for non-critical workloads
